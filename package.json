@@ -1,0 +1,41 @@
+{
+  "name": "react-responsive-container",
+  "version": "0.0.0",
+  "description": "A React Component to manage the behavior of your Responsive Application",
+  "homepage": "https://github.com/marco-loche/react-responsive-container",
+  "author": [
+    "Marco Loche <marco@marcoloche.com> (www.marcoloche.com)",
+    "Antdrea Moretti <axyzxp@gmail.com>"
+  ],
+  "license": {
+    "type": "MIT",
+    "url": "http://marco-loche.mit-license.org/"
+  },
+  "readmeFilename": "README.md",
+  "main": "index.js",
+  "dependencies": {
+    "mediaquery": "0.0.3"
+  },
+  "devDependencies": {
+    "babel": "^4.7.16",
+    "flog": "0.0.1",
+    "react": "^0.13",
+    "react-tools": "0.13"
+  },
+  "scripts": {
+    "build": "./node_modules/.bin/babel src --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marco-loche/react-responsive-container"
+  },
+  "keywords": [
+    "react js",
+    "responsive",
+    "responsive design",
+    "media queries"
+  ],
+  "bugs": {
+    "url": "https://github.com/marco-loche/react-responsive-container/issues"
+  }
+}
