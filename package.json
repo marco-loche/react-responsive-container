@@ -16,14 +16,19 @@
   "dependencies": {
     "mediaquery": "0.0.3"
   },
+  "dependencies": {
+    "mediaquery": "0.0.3"
+  },
   "devDependencies": {
     "babel": "^4.7.16",
     "flog": "0.0.1",
     "react": "^0.13",
-    "react-tools": "0.13"
+    "react-tools": "0.13",
+    "jest-cli": "*"
   },
   "scripts": {
-    "build": "./node_modules/.bin/babel src --out-dir dist"
+    "build": "./node_modules/.bin/babel src --out-dir dist",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -39,5 +44,11 @@
   ],
   "bugs": {
     "url": "https://github.com/marco-loche/react-responsive-container/issues"
+  },
+  "jest": {
+    "scriptPreprocessor": "<rootDir>/test/preprocessor.js",
+    "unmockedModulePathPatterns": [
+      "<rootDir>/node_modules/react"
+    ]
   }
 }
