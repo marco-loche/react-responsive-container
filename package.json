@@ -30,7 +30,9 @@
     "url": "https://github.com/marco-loche/react-responsive-container"
   },
   "keywords": [
-    "react js",
+    "reactjs",
+    "react-component",
+    "container component",
     "responsive",
     "responsive design",
     "media queries"
