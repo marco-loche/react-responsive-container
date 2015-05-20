@@ -6,6 +6,7 @@ A React Container Component to manage the behavior of your Responsive Components
 ## Usage
 
 In your react-browserify application you can install `react-responsive-container` with:
+
 ```$ npm install --save react-responsive-container```
 
 Then you can wrap the component you want to have the responsive behavior
