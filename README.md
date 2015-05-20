@@ -1,4 +1,4 @@
-# react-responsive-media
+# react-responsive-container
 
 A React Container Component to manage the behavior of your Responsive Components in your Application
 
