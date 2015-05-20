@@ -26,7 +26,7 @@ var mediaQueries = {
 </ResponsiveContainer>
 ```
 
-from now on `YourComponent` will have an additional prop: `currentMedia` that is an Object in the format:
+from now on `YourComponent` will have an additional prop: `currentMedia` that is an Object with the format:
 ```
 {
   small: false,
@@ -52,7 +52,7 @@ Basically you should make your root component wrapped inside the `ResponsiveCont
 
 e.g.
 
-`ResponsiveRootComponent`
+`ResponsiveRootComponent.jsx`
 ```
 class ResponsiveRootComponent extends React.Component {
   render () {
